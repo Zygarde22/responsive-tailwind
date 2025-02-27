@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Demonstration</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="style" href="style.css">
 </head>
 <body class="flex items-center justify-center min-h-screen">
 
@@ -15,7 +16,15 @@
                 lg:bg-red-200 lg:p-10 
                 xl:bg-purple-200 xl:p-12">
         <h2 class="text-2xl font-bold">Welcome To GFG</h2>
-        <p class="text-lg">Resize the window to see the background and padding change!</p>
+        
+        <!-- Text and Padding That Changes at Different Breakpoints -->
+        <p class="text-base p-4 
+                  sm:p-6 
+                  md:text-lg md:p-8 
+                  lg:text-xl lg:p-10 
+                  xl:p-12">
+            Resize the window to see the text size and padding change!
+        </p>
     </div>
 
 </body>
