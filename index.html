@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Tailwind Demestroation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Demonstration</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="mediaQueries" href="mediaQueries.css">
 </head>
+<body class="flex items-center justify-center min-h-screen">
 
-<body>
-    <h2>Welcome To GFG</h2>
-    <p>
-        Default code has been
-        loaded into the Editor.
-    </p>
+    <div class="container mx-auto text-center 
+                bg-blue-200 p-4 
+                sm:bg-green-200 sm:p-6 
+                md:bg-yellow-200 md:p-8 
+                lg:bg-red-200 lg:p-10 
+                xl:bg-purple-200 xl:p-12">
+        <h2 class="text-2xl font-bold">Welcome To GFG</h2>
+        <p class="text-lg">Resize the window to see the background and padding change!</p>
+    </div>
+
 </body>
-
 </html>
